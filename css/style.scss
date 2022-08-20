@@ -1,0 +1,615 @@
+$primery-color: #040221;
+$prim-color: #060435;
+$secondary-color: #fff;
+$third-color: #FF0513;
+$font-type:Poppins;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: $prim-color;
+    padding: 10px 60px 20px;
+    position: relative;
+    font-family: $font-type;
+}
+
+header .navimg{
+    position: absolute;
+    top: 0px;
+    left: 310px;
+    z-index: 5;
+}
+header .navimg img {
+    width: 65%;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6px;
+}
+header nav h1{
+    padding-top: 8px;
+    color: $secondary-color;
+    font-size: 60px;
+    font-family: Freestyle Script;
+    font-weight: normal;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: -10px;
+}
+header nav ul li{
+    list-style: none;
+    padding: 20px 20px 0;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: $secondary-color;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+header nav ul li .header-about{
+    text-decoration: none;
+    color: $secondary-color;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 53px 20px 18px;
+    background-color: $third-color;
+}
+header div .hr-header{
+    background-color: $third-color;
+    margin-top: 10px;
+    margin-left: 883px;
+    width: 92px;
+    border: none;
+    height: 0.5px;
+}
+
+header nav ul li button{
+    background-color: transparent;
+    color: $secondary-color;
+    border: 2px solid $secondary-color;
+    padding: 16px 28px;
+    border-radius: 50px;
+    font-size: 15px;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    position: relative;
+}
+.hero .hero-data{
+    padding: 125px 0 65px;
+    position: relative;
+    z-index: 1;
+}
+
+.hero .hero-data .back-img{
+    width: 20%;
+}
+
+.hero .hero-data .back-img img{
+    position: absolute;
+    top: 160px;
+    left: -190px;
+    width: 75%;
+    z-index: -1;
+}
+
+.hero .hero-data .hello{
+    color: $secondary-color;
+    font-size: 25px;
+    margin-bottom: -10px;
+}
+.hero .hero-data h2{
+    font-size: 130px;
+    font-weight: bold;
+    color: $secondary-color;
+    line-height: 125px;
+    padding-bottom: 20px;
+    margin-left: -5px;
+}
+.hero .hero-data p{
+    font-size: 15px;
+    color: $secondary-color;
+    padding-bottom: 20px;
+}
+.hero .hero-data p .jop-title{
+    color: $third-color;
+    font-weight: lighter;
+}
+.hero .hero-data .me{
+    font-size: 17px;
+    color: $secondary-color;
+}
+
+.hero .hero-data .contact-icons{
+    color: $secondary-color;
+    padding: 15px 0;
+    font-size: 27px;
+    word-spacing: 20px;
+}
+
+.hero .hero-data .buttons{
+    padding: 20px 0;
+    font-family: Raleway;
+}
+.hero .hero-data .buttons button:nth-child(1){
+    background-color: $third-color;
+    color: $secondary-color;
+    padding: 16px 40px;
+    border: 0;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.hero .hero-data .buttons button:nth-child(2){
+    background-color: transparent;
+    color: $secondary-color;
+    padding: 15px 40px;
+    border: 1px solid $secondary-color;
+    border-radius: 50px;
+}
+.hero .hero-img{
+    width: 55%;
+    background-color: transparent;
+}
+.hero .hero-img img{
+    width: 100%;
+    height: 700px;
+    margin-bottom: -23px;
+}
+
+.hero .right-hero-img{
+    position: absolute;
+    bottom: -20px;
+    right: -58px;
+    // width: 20%;
+}
+
+.about-me{
+    background-color: $primery-color;
+    padding: 120px 60px;
+    overflow: hidden;
+}
+
+.about-me .about-me-dive{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-me .about-me-data{
+    padding-top: 20px;
+}
+.about-me-data  h2{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: $font-type;
+    color: $secondary-color;
+    padding: 40px 0;
+}
+
+// .about-me-data .about-me-hr hr{
+//     background-color: $third-color;
+//     margin-top: -50px;
+//     margin-left: 700px;
+//     width: 220px;
+//     border: none;
+//    height: 0.5px;
+// }
+
+.about-me-data p{
+    color: $secondary-color;
+    padding: 15px 0;
+    line-height: 30px;
+    width: 68%;
+    font-size: 17px;
+    font-family: $font-type;
+}
+.about-me-data button{
+    background-color: transparent;
+    color: $secondary-color;
+    margin-top: 50px;
+    padding: 17px 35px;
+    border: 2px solid $secondary-color;
+    border-radius: 100%;
+    border-radius: 50px;
+    font-size: 15px;
+}
+
+.about-me-data h3{
+    color: $secondary-color;
+    font-size: 28px;
+    padding-top: 180px ;
+    font-family: $font-type;
+    font-weight: normal;
+}
+
+.about-me-data ul{
+    display: flex;
+}
+.about-me-data ul li{
+    list-style: none;
+    padding-top: 15px;
+    margin-left: 3px;
+    font-family: $font-type;
+}
+
+.about-me-data ul li a{
+    color: $secondary-color;
+    padding-right:20px;
+}
+.about-me-data ul li .all{
+    color: $third-color;
+}
+
+.about-me-img{
+    margin: 10px 40px;
+    // padding: 20px;
+    // background-color: transparent;
+    // border: $primery-color;
+}
+.about-me-img img{
+    width: 90%;
+}
+
+.about-me .about-me-buttons{
+    margin-top: 110px;
+    padding-left: 266px;
+    display: flex;
+}
+.about-me .about-me-buttons button:nth-child(1){
+    background-color: transparent;
+    color: $secondary-color;
+    border: 1px solid $secondary-color;
+    border-radius: 70%;
+    padding: 17px 23px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.about-me .about-me-buttons button:nth-child(2){
+    background-color: $third-color;
+    color: $secondary-color;
+    border: 0;
+    border-radius: 70%;
+    padding: 18px 23px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.about-me .about-me-photos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.about-me .about-me-photos .about-photos{
+    padding: 55px 0 18px;
+    width: 33.333333%;
+    margin-left: -57px;
+    margin-right: -57px;
+}
+
+.about-me .about-me-photos img{
+    width: 85%;
+    margin:0 20px;
+}
+
+.about-me .about-me-photos .about-photos-opac{
+    padding: 55px 0 18px;
+    width: 33.3333%;
+}
+
+.about-me .about-me-photos .about-photos-opac img{
+    width: 85%;
+    margin:0 20px;
+    position: relative;
+    z-index: 0;
+}
+// .about-me .about-me-photos .about-photos-opac .overlay{
+//     background-color: $third-color;
+//     opacity: 0.5;
+//     position: absolute;
+//     top: 0;
+//     right: 0;
+//     left: 0;
+//     bottom: 0;
+//     z-index: -1;
+// }
+
+.capabilities{
+    text-align: center;
+    background-color: $prim-color;
+    padding: 60px 0;
+    font-family: $font-type;
+}
+.capabilities .capabilities-data h2{
+    color: $secondary-color;
+    font-size: 50px;
+    font-weight: bold;
+}
+.capabilities .capabilities-data .capabilities-line hr{
+    background-color: $third-color;
+    margin: 25px 0;
+    margin-left: 630px;
+    width: 270px;
+    border: none;
+    height: 0.5px;
+}
+.capabilities .capabilities-data h3{
+    color: $secondary-color;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.capabilities .capabilities-imgs{
+    margin: 80px 0 60px;
+    display: flex;
+    justify-content: space-around;
+    /* width: 33.333%; */
+    flex-wrap: wrap;
+}
+.capabilities .capabilities-imgs .image{
+    width: 33.333%;
+}
+.capabilities .capabilities-imgs .image img{
+    padding-top: 80px;
+    width: 15%;
+}
+.capabilities .capabilities-imgs .image h2{
+    color: $secondary-color;
+    padding: 13px 0 5px;
+    font-weight: bold;
+}
+.capabilities .capabilities-imgs .image p{
+    color: $secondary-color;
+    line-height: 28px;
+}
+
+.client-says{
+    background-color: $primery-color;
+    padding: 80px 0 100px;
+}
+.client-says .client-says-header{
+    text-align: center;
+}
+.client-says .client-says-header h2{
+    color: $secondary-color;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: $font-type;
+}
+.client-says .client-says-header .client-line hr{
+    background-color: $third-color;
+    margin: 25px 0;
+    margin-left: 630px;
+    width: 270px;
+    border: none;
+    height: 0.5px;
+}
+.client-says .client-says-header h3{
+    color: $secondary-color;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: $font-type;
+}
+
+.client-says .client-inner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.client-says .client-inner .client-img{
+    position: relative;
+}
+.client-says .client-inner .client-img img{
+    margin: 100px 0 100px 30px ;
+    width: 80%;
+}
+
+.client-says .client-inner .client1{
+    position: absolute;
+    top: 7px;
+    left: 55px;
+}
+.client-says .client-inner .client1 img{
+    width: 55%;
+}
+
+.client-says .client-inner .client2{
+    position: absolute;
+    top: 145px;
+    left: 127px;
+}
+.client-says .client-inner .client2 img{
+    width: 45%;
+}
+
+.client-says .client-inner .client3{
+    position: absolute;
+    top: 30px;
+    left: 250px;
+}
+.client-says .client-inner .client3 img{
+    width: 35%;
+}
+
+.client-says .client-inner .client4{
+    position: absolute;
+    top: 195px;
+    right: 120px;
+}
+.client-says .client-inner .client4 img{
+    width: 55%;
+}
+
+.client-says .client-inner .client5{
+    position: absolute;
+    top: -65px;
+    right: 182px;
+}
+.client-says .client-inner .client5 img{
+    width: 75%;
+    border: $third-color solid 6px;
+    border-radius: 100%;
+}
+
+.client-says .client-inner .client6{
+    position: absolute;
+    top: 240px;
+    left: 200px;
+}
+.client-says .client-inner .client6 img{
+    width: 55%;
+}
+
+.client-says .client-inner .client-data{
+    padding: 40px 100px 0 50px;
+    width: 50%;
+    font-family: $font-type;
+}
+.client-says .client-inner .client-data h2{
+    font-size: 110px;
+    color: $third-color;
+    margin-bottom: -30px;
+    font-family: Haettenschweiler;   
+}
+
+.client-says .client-inner .client-data .bott{
+    margin-left: 410px;
+}
+
+.client-says .client-inner .client-data p{
+    font-size: 25px;
+    color: $secondary-color;
+}
+.client-says .client-inner .client-data h3{
+    font-size: 19px;
+    color: $secondary-color;
+}
+.client-says .client-inner .client-data h4{
+    font-size: 14px;
+    font-weight: normal;
+    color: $secondary-color;
+    padding-top: 8px;
+}
+
+.info{
+    background-color: $prim-color;
+    text-align: center;
+    padding-bottom: 70px;
+    padding-top: 60px;
+    font-family: $font-type;
+}
+
+.info div hr{
+    background-color: $third-color;
+    margin-left: 695px;
+    width: 120px;
+    border: none;
+    height: 0.5px;
+    transform: rotate(90deg);
+}
+.info h2{
+    font-size: 50px;
+    font-weight: bold;
+    color: $secondary-color;
+    padding-top: 90px;
+}
+.info h3{
+    color: $secondary-color;
+    padding-top: 20px ;
+    padding-bottom: 40px;
+    line-height: 30px;
+    font-weight: normal;
+}
+
+.info form input{
+    padding: 17px 200px 14px 8px;
+    margin: 12px;
+    text-align: start;
+}
+.info form .massege{
+    padding: 17px 605px 60px 8px;
+    margin: 12px;
+    text-align: start;
+    margin-bottom: 60px;
+}
+
+.info .client-button button{
+    background-color: $third-color;
+    color: $secondary-color;
+    padding: 15px 50px;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: Raleway;
+    border: 0;
+    border-radius: 50px;
+}
+
+.foot{
+    background-color: $primery-color;
+    text-align: center;
+    padding-top: 23px;
+}
+.foot .top-foot hr{
+    background-color: $third-color;
+    margin-left: 740px;
+    width: 45px;
+    border: none;
+    height: 0.5px;
+    transform: rotate(90deg);
+}
+.foot h2{
+    color: $secondary-color;
+    padding: 35px 0 15px;
+    font-size: 45px;
+    font-weight: normal;
+    font-family: Freestyle Script;
+}
+.foot h3{
+    color: $secondary-color;
+    padding: 10px 0;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 27px;
+    font-family: Poppins;
+}
+
+.foot .icons {
+    color: $secondary-color;
+    padding: 30px 50px 50px;
+    font-size: 20px;
+    word-spacing: 20px;
+}
+
+.foot .foot-hr hr{
+    background-color: #707070;
+    margin-top: 8px;
+    border: none;
+    height: 0.1px;
+}
+
+.foot .copyright{
+    text-align: center;
+}
+
+.foot .copyright h4{
+    color: $secondary-color;
+    padding: 30px 0;
+    font-size: 13px;
+    font-weight: normal;
+    font-family: Poppins;
+}
